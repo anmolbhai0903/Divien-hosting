@@ -1,0 +1,52 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0d1117;
+  color: #e6edf3;
+}
+header {
+  background: #161b22;
+  padding: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #58a6ff;
+}
+.nav {
+  background: #0d1117;
+  padding: 0.5rem;
+  text-align: center;
+}
+.nav a {
+  color: #58a6ff;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+.container {
+  padding: 2rem;
+  display: grid;
+  gap: 1.5rem;
+}
+.plan {
+  background: #161b22;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  color: #e6edf3;
+}
+.plan h2 {
+  font-size: 1.8rem;
+}
+.buy-btn {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  margin-top: 1rem;
+  background: #58a6ff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+.buy-btn:hover {
+  background: #4183d7;
+}
